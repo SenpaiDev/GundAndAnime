@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F3163DA-CAA0-4119-9996-34918E93F19C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>kuudere</RootNamespace>
+    <AssemblyName>kuudere</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Awesomium.Unity">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Awesomium.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Awesomium.Unity.Core">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Awesomium.Unity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookCSharpSDK">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\FacebookCSharpSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="IFacebook">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\IFacebook.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="LZ4s">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\LZ4s.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayerIOUnity3DClient">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\PlayerIOUnity3DClient.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="PlaymakerActionsLib">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\PlaymakerActionsLib.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="RAINIndie">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\RAINIndie.dll</HintPath>
+    </Reference>
+    <Reference Include="Recast">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Recast.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tools">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\SteamLibrary\steamapps\common\GAR\GAR_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Loader.cs" />
+    <Compile Include="kuudereGUI.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
